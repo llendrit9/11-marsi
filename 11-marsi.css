@@ -1,0 +1,151 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+  }
+
+  #page1{
+    font-family: Arial, sans-serif;
+     background-image: url(images5.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+  
+  nav {
+    background-color: rgb(39, 33, 121);
+    padding-right: 0%;
+    float:right;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+  }
+  
+  .navbar a:hover {
+    background-color: #969191;
+    color: rgb(0, 0, 0);
+  }
+  
+  .content {
+    padding:20px;
+    text-align:center;
+  }
+
+    #logo {
+        max-width: 100%;
+        padding-left:0%;
+        float:left;
+    }
+    
+    #text { 
+
+        font-size: 34px;
+        float:right;
+        color: rgb(39, 33, 121);
+        margin-top: 15%;
+        padding-left: 36px;
+
+
+    }
+
+    #home{ 
+    padding: 10%;
+      background-color: #178fc7;
+        float: left;
+        padding:80px;
+        color: rgb(255, 255, 255);
+        margin-top:8%;
+        
+    }
+
+    #linku {
+
+    margin-left:0.5%;
+    margin-right:0.5%;
+     
+
+
+    }
+
+
+
+    #linku:hover {
+
+      color: red;
+      font-size: 20px;
+  
+  
+      }
+
+
+
+
+      #page2 {
+        background-image: url('Fashion-design.jpeg'); /* Zëvendësoni 'background_image.jpg' me adresën e imazhit tuaj */
+        background-size: cover;
+        color: #121111; /* Ngjyra e tekstit nëse është e bardhë, përshtatni sipas nevojës */
+        text-align: center;
+        padding: 100px;
+        height: 800px;
+        width: 100%;
+    }
+    
+    #page2 h1 {
+        margin: 0;
+    }
+
+#fashiontxt {
+
+  font-size: 120px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(0, 0, 0);
+margin-right: 70%;
+text-shadow: 5px 5px   4px rgba(0, 0, 0, 0.5); 
+}
+
+#button1  { 
+background-color:rgb(255, 255, 255);
+color: white;
+height: 25px;
+width: 60px;
+}
+
+
+
+#page3 
+{
+  background-image: url('programming-skills.png');
+  background-size: cover;
+  color: #121111; 
+  text-align: center;
+  padding: 100px;
+  height: 770px;
+  width: 100%;
+
+
+}
+
+#Softwerdesignertxt { 
+color: rgb(7, 253, 253);
+  font-size: 150px;
+
+  text-shadow: 5px 2px 20px rgba(218, 21, 21, 0.5); 
+}
+#Softwerdesignertxt2{ 
+
+font-size: 40px;
+color: rgb(255, 0, 0) ;
+text-shadow: 5px 2px 6px rgb(246, 246, 246); 
+margin-top: 3%;
+}
